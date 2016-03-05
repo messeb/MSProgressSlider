@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MSProgressSlider_Example', :exclusive => true do
+  pod 'MSProgressSlider', :path => '../'
+end
+
+target 'MSProgressSlider_Tests', :exclusive => true do
+  pod 'MSProgressSlider', :path => '../'
+
+  
+end
