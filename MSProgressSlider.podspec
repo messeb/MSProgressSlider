@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "MSProgressSlider"
   s.version          = "0.1.0"
-  s.summary          = "MSProgessSlider adds a second value to an UISlider"
+  s.summary          = "MSProgressSlider adds a second value to an UISlider"
 
   s.description      = <<-DESC
   The MSProgressSlider extends the UISlider with a second value. This value is displayed as a line behind the value line.
