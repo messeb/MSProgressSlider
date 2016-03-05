@@ -9,22 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = "MSProgressSlider"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MSProgressSlider."
+  s.summary          = "MSProgessSlider adds a second value to an UISlider"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  The MSProgressSlider extends the UISlider with a second value. This value is displayed as a line behind the value line.
+It can be used to show a loading progress.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MSProgressSlider"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/messeb/MSProgressSlider"
   s.license          = 'MIT'
-  s.author           = { "messeb" => "sebastian@messeb.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MSProgressSlider.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = "messeb"
+  s.source           = { :git => "https://github.com/messeb/MSProgressSlider.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -33,8 +28,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'MSProgressSlider' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
